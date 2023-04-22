@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description - "prints size of various data types"
- * Returns: Always "0" (Success)
+ * main - "prints size of various data types."
+ *
+ *
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	char a;
@@ -13,11 +13,11 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of a char: %zu byte(s)\n", sizeof(a));
-	printf("Size of an int: %zu byte(s)\n", sizeof(b));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(c));
-	printf("Size of long long int: %zu byte(s)\n", sizeof(d));
-	printf("Size of a float: %zu byte(s)\n", sizeof(e));
+	printf("Size of a char: %lu byte(s)\n", sizeof(a));
+	printf("Size of an int: %lu byte(s)\n", sizeof(b));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", sizeof(e));
 
 	return (0);
 }
