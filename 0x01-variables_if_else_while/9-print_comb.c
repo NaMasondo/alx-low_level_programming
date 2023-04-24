@@ -14,9 +14,12 @@ int main(void)
 	while (x <= 59 && x != 58)
 	{
 		putchar(x);
-		putchar(y);
-		putchar(z);
 		x++;
+		if (x < 58)
+		{
+			putchar(y);
+			putchar(z);
+		}
 	}
 	putchar('\n');
 	return (0);
