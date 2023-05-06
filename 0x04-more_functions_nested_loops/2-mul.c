@@ -2,16 +2,12 @@
 /**
  * mul - "Multiplies two integers"
  *
- * @a , b: integers to be multiplied.
+ * @a: integers to be multiplied.
+ * @b: integer to be multiplied.
  *
- * Return: Always 0.
+ * Return: a * b .
  */
 int mul(int a, int b)
 {
-	_putchar(a);
-	_putchar('\n');
-	_putchar(b);
-	_putchar('\n');
-
-	return (0);
+	return (a * b);
 }
