@@ -1,2 +1,1 @@
-#Introduction to low level programming
-Intro to C programming
+#0x03. C - Debugging
