@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-	int x = 48;
-	int y = 48;
-	int z = 32;
-	int w = 44;
+	int num1, num2;
 
-	while (x <= 57)
+	for (num1 = 0; num1 < 9; num1++)
 	{
-		putchar(x);
-		x++;
-		for (y = 48; y <= 57; y++)
+		for (num2 = num1 + 1; num2 < 10; num2++)
 		{
-			putchar(y);
-			putchar(w);
-			putchar(z);
+			putchar((num1 % 10) + '0');
+			putchar((num2 % 10) + '0');
+
+			if (num1 == 8 && num2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
